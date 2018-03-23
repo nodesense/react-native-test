@@ -1,2 +1,18 @@
 JEST    -- 
 Jasmine --  
+
+
+
+code.nodesense.ai
+username: nodesense
+password: bsol
+
+
+https://github.com/nodesense/react-native-test
+
+git clone https://github.com/nodesense/react-native-test
+cd react-native-test
+yarn install
+
+
+

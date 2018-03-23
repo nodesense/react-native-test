@@ -12,6 +12,9 @@ import {
   View
 } from 'react-native';
 
+
+import Address from "./components/Address";
+
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
     'Cmd+D or shake for dev menu',
@@ -24,6 +27,8 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
+       <Address address= { {street: '1st', city: 'Nagpur', pincode: 100000} } />
+
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
